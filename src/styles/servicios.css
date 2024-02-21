@@ -56,3 +56,35 @@
 .service-card p {
   color: #58585a;
 }
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .services-container {
+    margin-top: 380px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .service-card .icon-container {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .service-card h3 {
+    order: 2;
+  }
+
+  .service-card p {
+    order: 3;
+  }
+}

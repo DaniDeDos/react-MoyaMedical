@@ -9,7 +9,7 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: transparent !important ;
   max-width: 1200px;
   margin: 0 auto;

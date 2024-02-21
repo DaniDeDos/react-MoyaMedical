@@ -46,6 +46,7 @@
 }
 
 .title-rute {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,4 +57,18 @@
 }
 
 @media (max-width: 768px) {
+  .rute-link svg,
+  .rute-link p {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    overflow-y: auto;
+    right: 100%;
+    transition: right 0.3s;
+  }
+  .title-rute {
+    font-size: 54px;
+    margin: 0 60px;
+    margin-top: 60px;
+  }
 }
