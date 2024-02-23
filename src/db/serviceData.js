@@ -1,5 +1,4 @@
-import { FaCss3Alt, FaHtml5, FaJava, FaJs, FaSass } from "react-icons/fa";
-import { BiLogoTypescript } from "react-icons/bi";
+import { FaCss3Alt } from "react-icons/fa";
 
 export const serviceCardsData = [
   {
