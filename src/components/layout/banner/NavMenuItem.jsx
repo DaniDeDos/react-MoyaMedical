@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const NavMenuItem = ({ name }) => {
+const NavMenuItem = ({ name, path }) => {
   return (
     <li className="nav-menu-item">
-      <a href="#" className="nav-menu-link nav-link">
+      <Link to={path} className="nav-menu-link nav-link">
         {name}
-      </a>
+      </Link>
     </li>
   );
 };
