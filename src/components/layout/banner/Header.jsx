@@ -1,18 +1,26 @@
 import React, { useState } from "react";
+
+//importaciones de terceros
+import { SiImmich } from "react-icons/si";
+import { useLocation } from "react-router-dom";
+
+//importaciones propias
 import "../../../Style.css";
 import "../../../styles/navbar.css";
 import list_ico from "../../../assets/icons/list.svg";
 import HeadRute from "./HeadRute";
 import Background from "./Background";
 import NavMenuItem from "./NavMenuItem";
-import { SiImmich } from "react-icons/si";
 
 const Header = () => {
   const [navMenuVisible, setNavMenuVisible] = useState(false);
+  const location = useLocation();
 
   const toggleNavMenu = () => {
     setNavMenuVisible(!navMenuVisible);
   };
+
+  const isActive = (path) => location.pathname === path;
 
   return (
     <>
@@ -40,9 +48,21 @@ const Header = () => {
           <ul
             className={`nav-menu ${navMenuVisible ? "nav-menu-visible" : ""}`}
           >
-            <NavMenuItem name="Nuestra Compañía" />
-            <NavMenuItem name="Nuestros Servicios" />
-            <NavMenuItem name="Recursos" />
+            <NavMenuItem
+              name="Nuestra Compañía"
+              path="/nuestra-compania"
+              active={isActive("/nuestra-compania")}
+            />
+            <NavMenuItem
+              name="Nuestros Servicios"
+              path="/servicios"
+              active={isActive("/servicios")}
+            />
+            <NavMenuItem
+              name="Recursos"
+              path="/recursos"
+              active={isActive("/recursos")}
+            />
             <NavMenuItem name="ES" />
             <NavMenuItem name="Contáctanos" />
           </ul>

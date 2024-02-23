@@ -66,6 +66,12 @@
   cursor: pointer;
 }
 
+
+  .nav-menu-item.active .nav-menu-link {
+    color: #158ee2;
+  }
+
+
 @media (max-width: 768px) {
   body {
     padding-top: 70px;
@@ -101,12 +107,7 @@
     line-height: 70px;
   }
 
-  .nav-menu-link:hover,
-  .nav-menu-link_active {
-    background: none;
-    color: #83c5f7;
-  }
-
+  
   .nav-toggle {
     display: block;
   }

@@ -1,7 +1,9 @@
 import React from 'react';
+
+//importaciones propias
 import ServiceCard from './ServiceCard'; 
-import "../../styles/servicios.css";
-import { serviceCardsData } from '../../db/serviceData';
+import "../../../styles/servicios.css";
+import { serviceCardsData } from '../../../db/serviceData';
 
 const Servicios = () => {
   return (
