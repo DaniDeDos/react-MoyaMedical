@@ -142,9 +142,22 @@
 
 .logo-container svg {
   color: #fff;
-  font-size: 32px;  
+  font-size: 32px;
   display: flex;
   align-items: center;
   justify-content: left;
   margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.derechos {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
 }
