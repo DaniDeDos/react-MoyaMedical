@@ -1,9 +1,15 @@
 import { FaCss3Alt } from "react-icons/fa";
+import { MdOutlineMedicalServices, MdBalance } from "react-icons/md";
+import { LiaFileMedicalAltSolid } from "react-icons/lia";
+import { LuPlane, LuUsers2, LuStethoscope } from "react-icons/lu";
+import { IoSettingsOutline } from "react-icons/io5";
+import { BsTruck } from "react-icons/bs";
+import { PiBandaidsBold } from "react-icons/pi";
 
 export const serviceCardsData = [
   {
     id: 1,
-    icon: FaCss3Alt,
+    icon: PiBandaidsBold,
     service_name: "Atención de lesiones",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
@@ -17,49 +23,49 @@ export const serviceCardsData = [
   },
   {
     id: 3,
-    icon: FaCss3Alt,
+    icon: LiaFileMedicalAltSolid,
     service_name: "Exámenes físicos",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
   },
   {
     id: 4,
-    icon: FaCss3Alt,
+    icon: MdOutlineMedicalServices,
     service_name: "Medicina preventiva",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
   },
   {
     id: 5,
-    icon: FaCss3Alt,
+    icon: LuPlane,
     service_name: "Examen médico de inmigración",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
   },
   {
     id: 6,
-    icon: FaCss3Alt,
+    icon: LuStethoscope,
     service_name: "Atención rápida",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
   },
   {
     id: 7,
-    icon: FaCss3Alt,
+    icon: IoSettingsOutline,
     service_name: "Servicios MRO",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
   },
   {
     id: 8,
-    icon: FaCss3Alt,
+    icon: LuUsers2,
     service_name: "Programa de asistencia a empleados",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
   },
   {
     id: 9,
-    icon: FaCss3Alt,
+    icon: MdBalance,
     service_name: "Cumplimiento normativo",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
@@ -80,7 +86,7 @@ export const serviceCardsData = [
   },
   {
     id: 12,
-    icon: FaCss3Alt,
+    icon: BsTruck,
     service_name: "Servicios DOT",
     descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, esse.",
