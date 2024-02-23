@@ -59,7 +59,7 @@ const Header = () => {
               path="/recursos"
               active={isActive("/recursos")}
             />
-            <NavMenuItem name="ES" />
+            <NavMenuItem name="🇪🇦ES" />
             <NavMenuItem name="Contáctanos" />
           </ul>
         </nav>
