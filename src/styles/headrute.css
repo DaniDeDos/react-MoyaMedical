@@ -13,6 +13,12 @@
   justify-content: left;
 }
 
+.link-dom {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3ms;
+}
+
 /*
 |--> Estilos del icono GoHome
 */
@@ -26,7 +32,17 @@
 
 .rute-link p {
   font-size: 16px;
-  padding: 8px 0 0 6px;
+  margin: 2px 0 0 6px;
+  cursor: pointer;
+  border-bottom: 0.5px solid transparent;
+}
+
+.rute-link p:hover {
+  border-bottom: 0.5px solid #fff;
+}
+
+.rute-link .signo:hover {
+  border-bottom: 0.5px solid transparent;
 }
 
 .title-rute {

@@ -48,11 +48,7 @@ const Header = () => {
           <ul
             className={`nav-menu ${navMenuVisible ? "nav-menu-visible" : ""}`}
           >
-            <NavMenuItem
-              name="Nuestra Compañía"
-              path="/nuestra-compania"
-              active={isActive("/nuestra-compania")}
-            />
+            <NavMenuItem name="Nuestra Compañía" />
             <NavMenuItem
               name="Nuestros Servicios"
               path="/servicios"

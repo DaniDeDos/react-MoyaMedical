@@ -3,6 +3,7 @@ import { SiImmich } from "react-icons/si";
 
 //importaciones propias
 import NavMenuItem from "../banner/NavMenuItem.jsx";
+import "./footer.css"
 
 const Footer = () => {
   const derechoEs = "© 2024 Moya Medical. Todos los derechos reservados.";

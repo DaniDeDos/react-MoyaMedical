@@ -1,7 +1,7 @@
 import React from "react";
 
 //importaciones de terceros
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { GoHome } from "react-icons/go";
 
 //Importaciones propias
@@ -27,10 +27,19 @@ const HeadRute = () => {
   return (
     <div className="rute-container">
       <div className="rute-link">
-        <GoHome />
-        <p>{`Home ${signo} ${pageName}`}</p>
+        <Link to="/">
+          <GoHome />
+        </Link>
+        <Link className="link-dom" to="/">
+          <p>{`Home`}</p>
+        </Link>
+
+        <p className="signo">{` ${signo} `}</p>
+        <Link className="link-dom" to={location.pathname}>
+          <p>{`${pageName}`}</p>
+        </Link>
       </div>
-      <h1 className="title-rute">Nuestros Servicios</h1>
+      <h1 className="title-rute">{pageName}</h1>
     </div>
   );
 };

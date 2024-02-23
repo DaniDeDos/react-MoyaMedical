@@ -7,19 +7,3 @@ body {
   font-family: sans-serif;
   background-color: #f5f4f4;
 }
-
-.footer {
-  margin-top: 125px;
-  border-radius: 55% 55% 0 0;
-  background-color: #101c37;
-  position: relative;
-  height: 320px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-}
-
-.derechos{
-  color: #fff;
-  text-align: center;
-}
