@@ -23,11 +23,36 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.teste {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.service-card .icon-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #158ee2;
+  border-radius: 50%;
+}
+
+.service-card svg {
+  color: #fff;
+  width: 48px;
+  height: 48px;
+}
+
 .service-card h3 {
   margin: 10px 0;
+  color: #58585a;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .service-card p {
-  color: #666;
+  color: #58585a;
 }
-
